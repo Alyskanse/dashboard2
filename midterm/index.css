@@ -1,0 +1,9 @@
+.carousel-item {
+    border: coral;
+    height: 500px;
+    padding: 20px;
+}
+.carouselSlide {
+    height: 500px;
+    padding: 20px;
+}
