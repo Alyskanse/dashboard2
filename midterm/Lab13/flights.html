@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="flights.js"></script>
+    <link rel="stylesheet" type="text/css" href="flights.css">
+    <title>Lab 13</title>
+</head>
+<body onload="updateTable()">
+
+<div class="jumbotron">
+    <h1 class="display-4">Alaska Airlines</h1>
+    <hr class="my-4">
+    <h3>Baggage Claim</h3>
+    <p>Find flight information below</p>
+</div>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">Airline</th>
+        <th scope="col">Number</th>
+        <th scope="col">Origin</th>
+        <th scope="col">Destination</th>
+        <th scope="col">Departure Time</th>
+        <th scope="col">Arrival Time</th>
+        <th scope="col">Duration</th>
+        <th scope="col">Arrival Gate</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td id="airline-1"></td>
+        <td id="number-1"></td>
+        <td id="origin-1"></td>
+        <td id="destination-1"></td>
+        <td id="dep_time-1"></td>
+        <td id="arrival_time-1"></td>
+        <td id="duration-1"></td>
+        <td id="arrival_gate-1"></td>
+    </tr>
+    <tr>
+        <td id="airline-2"></td>
+        <td id="number-2"></td>
+        <td id="origin-2"></td>
+        <td id="destination-2"></td>
+        <td id="dep_time-2"></td>
+        <td id="arrival_time-2"></td>
+        <td id="duration-2"></td>
+        <td id="arrival_gate-2"></td>
+    </tr>
+    <tr>
+        <td id="airline-3"></td>
+        <td id="number-3"></td>
+        <td id="origin-3"></td>
+        <td id="destination-3"></td>
+        <td id="dep_time-3"></td>
+        <td id="arrival_time-3"></td>
+        <td id="duration-3"></td>
+        <td id="arrival_gate-3"></td>
+    </tr>
+    <tr>
+        <td id="airline-4"></td>
+        <td id="number-4"></td>
+        <td id="origin-4"></td>
+        <td id="destination-4"></td>
+        <td id="dep_time-4"></td>
+        <td id="arrival_time-4"></td>
+        <td id="duration-4"></td>
+        <td id="arrival_gate-4"></td>
+    </tr>
+    <tr>
+        <td id="airline-5"></td>
+        <td id="number-5"></td>
+        <td id="origin-5"></td>
+        <td id="destination-5"></td>
+        <td id="dep_time-5"></td>
+        <td id="arrival_time-5"></td>
+        <td id="duration-5"></td>
+        <td id="arrival_gate-5"></td>
+    </tr>
+    <tr>
+        <td id="airline-6"></td>
+        <td id="number-6"></td>
+        <td id="origin-6"></td>
+        <td id="destination-6"></td>
+        <td id="dep_time-6"></td>
+        <td id="arrival_time-6"></td>
+        <td id="duration-6"></td>
+        <td id="arrival_gate-6"></td>
+    </tr>
+    <tr>
+        <td id="airline-7"></td>
+        <td id="number-7"></td>
+        <td id="origin-7"></td>
+        <td id="destination-7"></td>
+        <td id="dep_time-7"></td>
+        <td id="arrival_time-7"></td>
+        <td id="duration-7"></td>
+        <td id="arrival_gate-7"></td>
+    </tr>
+    <tr>
+        <td id="airline-8"></td>
+        <td id="number-8"></td>
+        <td id="origin-8"></td>
+        <td id="destination-8"></td>
+        <td id="dep_time-8"></td>
+        <td id="arrival_time-8"></td>
+        <td id="duration-8"></td>
+        <td id="arrival_gate-8"></td>
+    </tr>
+    <tr>
+        <td id="airline-9"></td>
+        <td id="number-9"></td>
+        <td id="origin-9"></td>
+        <td id="destination-9"></td>
+        <td id="dep_time-9"></td>
+        <td id="arrival_time-9"></td>
+        <td id="duration-9"></td>
+        <td id="arrival_gate-9"></td>
+    </tr>
+    <tr>
+        <td id="airline-10"></td>
+        <td id="number-10"></td>
+        <td id="origin-10"></td>
+        <td id="destination-10"></td>
+        <td id="dep_time-10"></td>
+        <td id="arrival_time-10"></td>
+        <td id="duration-10"></td>
+        <td id="arrival_gate-10"></td>
+    </tr>
+    </tbody>
+</table>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+</html>
