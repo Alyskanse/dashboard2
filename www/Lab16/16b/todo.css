@@ -1,0 +1,9 @@
+.deselected {
+    color: red;
+    font-size: 16px;
+}
+
+.selected {
+    color: green;
+    font-size: 24px;
+}
