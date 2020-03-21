@@ -1,0 +1,31 @@
+
+*{
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.navbar .navbar-brand {
+    color: black;
+}
+
+body {
+    background: url('./images/car.JPG') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Baloo Chettan 2', cursive;
+
+}
+
+.flex-container {
+    display: flex;
+    height: 950px;
+    justify-content: left;
+    align-items: center;
+}
+

@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+h1, h4{
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+.aboutMeText {
+    padding: 50px;
+    text-align: center;
+}
+.column1 {
+    float: left;
+    width: 50%;
+    height: 900px;
+    background-image: url("images/waterMe.jpg");
+    background-size: cover;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.column2 {
+    float: left;
+    width: 50%;
+    height: 900px;
+    padding: 50px;
+    margin: 0 auto;
+    background-color: lightblue;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
